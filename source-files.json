@@ -1,0 +1,77 @@
+[
+  {
+    "sample": "sample001",
+    "board": "Arduino Leonardo",
+    "kicadPcb": "KiCad Projects/Arduino Leonardo/Arduino Leonardo.kicad_pcb",
+    "sourceUrl": "https://github.com/sabogalc/KiCad-Arduino-Boards/blob/main/KiCad%20Projects/Arduino%20Leonardo/Arduino%20Leonardo.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/sabogalc/KiCad-Arduino-Boards/main/KiCad%20Projects/Arduino%20Leonardo/Arduino%20Leonardo.kicad_pcb",
+    "warnings": [],
+    "stats": {
+      "pads": 274,
+      "components": 57,
+      "traces": 251,
+      "vias": 95,
+      "copper_pours": 17
+    }
+  },
+  {
+    "sample": "sample002",
+    "board": "Arduino Mega 2560",
+    "kicadPcb": "KiCad Projects/Arduino Mega 2560/Arduino Mega 2560.kicad_pcb",
+    "sourceUrl": "https://github.com/sabogalc/KiCad-Arduino-Boards/blob/main/KiCad%20Projects/Arduino%20Mega%202560/Arduino%20Mega%202560.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/sabogalc/KiCad-Arduino-Boards/main/KiCad%20Projects/Arduino%20Mega%202560/Arduino%20Mega%202560.kicad_pcb",
+    "warnings": [],
+    "stats": {
+      "pads": 404,
+      "components": 66,
+      "traces": 386,
+      "vias": 154,
+      "copper_pours": 25
+    }
+  },
+  {
+    "sample": "sample003",
+    "board": "Arduino Micro",
+    "kicadPcb": "KiCad Projects/Arduino Micro/Arduino Micro.kicad_pcb",
+    "sourceUrl": "https://github.com/sabogalc/KiCad-Arduino-Boards/blob/main/KiCad%20Projects/Arduino%20Micro/Arduino%20Micro.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/sabogalc/KiCad-Arduino-Boards/main/KiCad%20Projects/Arduino%20Micro/Arduino%20Micro.kicad_pcb",
+    "warnings": [],
+    "stats": {
+      "pads": 158,
+      "components": 48,
+      "traces": 160,
+      "vias": 44,
+      "copper_pours": 21
+    }
+  },
+  {
+    "sample": "sample004",
+    "board": "Arduino Nano",
+    "kicadPcb": "KiCad Projects/Arduino Nano/Arduino Nano.kicad_pcb",
+    "sourceUrl": "https://github.com/sabogalc/KiCad-Arduino-Boards/blob/main/KiCad%20Projects/Arduino%20Nano/Arduino%20Nano.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/sabogalc/KiCad-Arduino-Boards/main/KiCad%20Projects/Arduino%20Nano/Arduino%20Nano.kicad_pcb",
+    "warnings": [],
+    "stats": {
+      "pads": 146,
+      "components": 34,
+      "traces": 162,
+      "vias": 44,
+      "copper_pours": 18
+    }
+  },
+  {
+    "sample": "sample005",
+    "board": "Arduino Uno",
+    "kicadPcb": "KiCad Projects/Uno/Arduino Uno/Arduino UNO.kicad_pcb",
+    "sourceUrl": "https://github.com/sabogalc/KiCad-Arduino-Boards/blob/main/KiCad%20Projects/Uno/Arduino%20Uno/Arduino%20UNO.kicad_pcb",
+    "rawUrl": "https://raw.githubusercontent.com/sabogalc/KiCad-Arduino-Boards/main/KiCad%20Projects/Uno/Arduino%20Uno/Arduino%20UNO.kicad_pcb",
+    "warnings": [],
+    "stats": {
+      "pads": 259,
+      "components": 56,
+      "traces": 268,
+      "vias": 75,
+      "copper_pours": 23
+    }
+  }
+]
