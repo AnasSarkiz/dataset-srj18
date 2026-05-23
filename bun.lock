@@ -1,6 +1,5 @@
 {
   "lockfileVersion": 1,
-  "configVersion": 1,
   "workspaces": {
     "": {
       "name": "dataset-srj18",
@@ -40,7 +39,7 @@
         "eecircuit-engine": "^1.7.0",
         "flatbush": "^4.5.1",
         "graphics-debug": "^0.0.94",
-        "kicad-to-circuit-json": "^0.0.71",
+        "kicad-to-circuit-json": "^0.0.74",
         "kicadts": "^0.0.42",
         "minicssgrid": "^0.0.9",
         "playwright-core": "^1.60.0",
@@ -638,7 +637,7 @@
 
     "kicad-component-converter": ["kicad-component-converter@0.1.40", "", { "bin": { "kicad-mod-converter": "dist/cli.js", "kicad-component-converter": "dist/cli.js" } }, "sha512-k0eJpjeRF5E55Izphx87NzL9iGd5kABovG+1TRCgWktfYGWk3YuUnEZPsBVB5PH01TKA7OE8Oj7CdJcGSxWISw=="],
 
-    "kicad-to-circuit-json": ["kicad-to-circuit-json@0.0.71", "", { "dependencies": { "schematic-symbols": "^0.0.202" }, "peerDependencies": { "typescript": "^5" } }, "sha512-B1UXi2klU83NLJ6pq9NkRz8OIC3jMLPajSbzY3rIewuWd1l6Psf72is8NHdSpCiK4TLGo1DFHA96Hgs+iBe2Ug=="],
+    "kicad-to-circuit-json": ["kicad-to-circuit-json@0.0.74", "", { "dependencies": { "schematic-symbols": "^0.0.202" }, "peerDependencies": { "typescript": "^5" } }, "sha512-kaYuP5ro+EFCcRF8b0uXdxjFdn7B+Weo6umC7vybhswcyQeXLNDwjspDGgny/iJnJOk5PoHcJOb+QZNisAz1Fg=="],
 
     "kicadts": ["kicadts@0.0.42", "", { "peerDependencies": { "typescript": "^5" } }, "sha512-L9yUCm4+W2M+s+eLK3tvsXmmoCKGzhX8/TkL+7cdmqE6AkMXgAoc8PTOFUg5dF8MGGYV4S6zS0WWFE3oX+L6iQ=="],
 
