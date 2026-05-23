@@ -1,6 +1,9 @@
 # dataset-srj18
 
-Simple Route JSON dataset generated from five KiCad Arduino boards:
+Simple Route JSON dataset generated from five KiCad Arduino boards and eleven
+Antmicro boards.
+
+Arduino boards:
 
 - Arduino Leonardo
 - Arduino Mega 2560
@@ -8,8 +11,24 @@ Simple Route JSON dataset generated from five KiCad Arduino boards:
 - Arduino Nano
 - Arduino Uno
 
-Source KiCad PCB files are downloaded from
+Arduino source KiCad PCB files are downloaded from
 <https://github.com/sabogalc/KiCad-Arduino-Boards/tree/main/KiCad%20Projects>.
+
+Antmicro boards:
+
+- DDR5_TESTBED
+- DUAL_GMSL_SERIALIZER_ADAPTER
+- FTDI_TOOLKIT
+- GMSL_SERIALIZER
+- HDMI_EDID_DEBUG_BOARD
+- JOB_OCULINK_EXPANSION
+- OCULINK_PCIE_ADAPTER
+- OV5640_DUAL_CAMERA_BOARD
+- OV9281_CAMERA_BOARD
+- SDI_FIBER_ADAPTER
+- USB_C_POWER_ADAPTER
+
+Antmicro source repositories are listed in `source-files.json`.
 
 ## Usage
 

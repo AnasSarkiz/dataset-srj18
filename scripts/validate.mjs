@@ -1,11 +1,14 @@
-import { existsSync, readdirSync } from "node:fs"
+import { existsSync, readFileSync, readdirSync } from "node:fs"
 import { createRequire } from "node:module"
 
 const require = createRequire(import.meta.url)
 const dataset = require("../index.js")
 
 const samples = readdirSync("samples").filter((file) => file.endsWith(".json")).sort()
-if (samples.length !== 5) throw new Error(`Expected 5 samples, found ${samples.length}`)
+const sourceFiles = JSON.parse(readFileSync("source-files.json", "utf8"))
+if (samples.length !== sourceFiles.length) {
+  throw new Error(`Expected ${sourceFiles.length} samples, found ${samples.length}`)
+}
 
 for (const [index, sampleFile] of samples.entries()) {
   const exportName = `sample${String(index + 1).padStart(3, "0")}`
