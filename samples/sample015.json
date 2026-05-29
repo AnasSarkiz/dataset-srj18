@@ -49928,8 +49928,8 @@
         "x": -24.8,
         "y": -13.45
       },
-      "width": 0.3,
-      "height": 0.8,
+      "width": 0.8,
+      "height": 0.3,
       "connectedTo": [
         "pcb_smtpad_250",
         "connectivity_net2562",
@@ -52672,8 +52672,8 @@
         "x": -21.801,
         "y": -13.45
       },
-      "width": 0.3,
-      "height": 0.8,
+      "width": 0.8,
+      "height": 0.3,
       "connectedTo": [
         "pcb_smtpad_256",
         "connectivity_net2217",
@@ -53104,8 +53104,8 @@
         "x": -21.801,
         "y": -13.944
       },
-      "width": 0.3,
-      "height": 0.8,
+      "width": 0.8,
+      "height": 0.3,
       "connectedTo": [
         "pcb_smtpad_257",
         "connectivity_net2562",
@@ -53949,8 +53949,8 @@
         "x": -24.8,
         "y": -13.944
       },
-      "width": 0.3,
-      "height": 0.8,
+      "width": 0.8,
+      "height": 0.3,
       "connectedTo": [
         "pcb_smtpad_263",
         "connectivity_net1793",
