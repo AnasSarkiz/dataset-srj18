@@ -80,7 +80,7 @@
     "type": "source_component",
     "source_component_id": "source_component_12",
     "name": "D4",
-    "ftype": "simple_diode"
+    "ftype": "simple_led"
   },
   {
     "type": "source_component",
@@ -163,7 +163,7 @@
     "type": "source_component",
     "source_component_id": "source_component_25",
     "name": "FID1",
-    "ftype": "simple_chip"
+    "ftype": "simple_fiducial"
   },
   {
     "type": "source_component",
@@ -220,7 +220,7 @@
     "type": "source_component",
     "source_component_id": "source_component_34",
     "name": "FID3",
-    "ftype": "simple_chip"
+    "ftype": "simple_fiducial"
   },
   {
     "type": "source_component",
@@ -232,7 +232,7 @@
     "type": "source_component",
     "source_component_id": "source_component_36",
     "name": "D5",
-    "ftype": "simple_diode"
+    "ftype": "simple_led"
   },
   {
     "type": "source_component",
@@ -281,7 +281,7 @@
     "type": "source_component",
     "source_component_id": "source_component_44",
     "name": "FID2",
-    "ftype": "simple_chip"
+    "ftype": "simple_fiducial"
   },
   {
     "type": "source_component",
@@ -313,7 +313,7 @@
     "type": "source_component",
     "source_component_id": "source_component_49",
     "name": "D7",
-    "ftype": "simple_diode"
+    "ftype": "simple_led"
   },
   {
     "type": "source_component",
@@ -345,7 +345,7 @@
     "type": "source_component",
     "source_component_id": "source_component_54",
     "name": "D6",
-    "ftype": "simple_diode"
+    "ftype": "simple_led"
   },
   {
     "type": "source_component",
