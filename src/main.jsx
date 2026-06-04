@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react"
 import { createRoot } from "react-dom/client"
-import { convertCircuitJsonToPcbSvg } from "circuit-to-svg"
 import { convertSrjToGraphicsObject } from "@tscircuit/capacity-autorouter"
+import { PCBViewer } from "@tscircuit/pcb-viewer"
 import { getSvgFromGraphicsObject } from "graphics-debug"
 import sourceFiles from "../source-files.json"
 import "./styles.css"
@@ -26,15 +26,6 @@ const getBoardArea = (bounds) => {
   if (!bounds) return 0
   return (bounds.maxX - bounds.minX) * (bounds.maxY - bounds.minY)
 }
-
-const makePcbSvg = (circuitJson) =>
-  convertCircuitJsonToPcbSvg(circuitJson, {
-    matchBoardAspectRatio: true,
-    backgroundColor: "#11161b",
-    showPcbNotes: false,
-    showCourtyards: false,
-    shouldDrawErrors: false,
-  })
 
 const makeSrjSvg = (sample, width = 900, height = 640) =>
   getSvgFromGraphicsObject(convertSrjToGraphicsObject(sample), {
@@ -90,13 +81,7 @@ function App() {
     [],
   )
 
-  const selectedSvgs = useMemo(
-    () => ({
-      pcb: makePcbSvg(selected.circuitJson),
-      srj: makeSrjSvg(selected.sample),
-    }),
-    [selected],
-  )
+  const selectedSrjSvg = useMemo(() => makeSrjSvg(selected.sample), [selected])
 
   const nextSample = () => setSelectedIndex((current) => (current + 1) % samples.length)
   const previousSample = () => setSelectedIndex((current) => (current - 1 + samples.length) % samples.length)
@@ -177,9 +162,11 @@ function App() {
             <section className="viewerPane">
               <div className="paneHeader">
                 <h3>Circuit JSON PCB</h3>
-                <span>circuit-to-svg</span>
+                <span>pcb-viewer</span>
               </div>
-              <SvgPreview svg={selectedSvgs.pcb} title={`${selected.board} Circuit JSON PCB preview`} />
+              <div className="pcbViewerBox">
+                <PCBViewer circuitJson={selected.circuitJson} />
+              </div>
             </section>
           )}
 
@@ -189,7 +176,7 @@ function App() {
                 <h3>Simple Route JSON</h3>
                 <span>capacity-autorouter</span>
               </div>
-              <SvgPreview svg={selectedSvgs.srj} title={`${selected.board} SRJ preview`} />
+              <SvgPreview svg={selectedSrjSvg} title={`${selected.board} SRJ preview`} />
             </section>
           )}
         </div>
